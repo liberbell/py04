@@ -7,3 +7,8 @@ def make_omlette():
     mix_and_cook()
     omlette = 'a tasty omlette'
     return omlette
+
+def make_pancake():
+    mix_and_cook()
+    pancake = 'a delicious pancake'
+    return pancake
