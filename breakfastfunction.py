@@ -5,8 +5,8 @@ def mix_and_cook:
 
 def make_omlette(ingredient):
     mix_and_cook()
-    omlette = 'a tasty omlette'.format(ingredient)
-    return omlette
+    omelette = 'a tasty omelette'.format(ingredient)
+    return omelette
 
 def make_pancake():
     mix_and_cook()
