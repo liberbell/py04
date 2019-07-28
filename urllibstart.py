@@ -10,6 +10,7 @@ def main():
     print(result.getheaders())
 
     print("Returned data:----")
+    print(result.Read())
 
 if __name__ == '__main__':
     main()
