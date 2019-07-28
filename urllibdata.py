@@ -7,3 +7,6 @@ def main():
     "name": "tanaka takeshi",
     "is_author": "True"
     }
+
+if __name__ == '__main__':
+    main()
