@@ -3,9 +3,9 @@ def mix_and_cook:
     print('Greasing the frying pan')
     print('Cooking the first side')
 
-def make_omlette():
+def make_omlette(ingredient):
     mix_and_cook()
-    omlette = 'a tasty omlette'
+    omlette = 'a tasty omlette'.format(ingredient)
     return omlette
 
 def make_pancake():
