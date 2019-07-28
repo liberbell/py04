@@ -9,3 +9,6 @@ def main():
     print("Headers:----------")
 
     print("Returned data:----")
+
+if __name__ == '__main__':
+    main()
