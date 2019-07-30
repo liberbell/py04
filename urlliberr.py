@@ -1,8 +1,8 @@
 import urllib.request
 
 def main():
-    url = "https://httpbin.org/html"
-    url = "https://httpbin.org/html"
+    # url = "https://no-such-server.org/html"
+    # url = "https://httpbin.org/status/404"
     url = "https://httpbin.org/html"
 
     result = urllib.request.urlopen(url)
