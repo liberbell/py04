@@ -1,7 +1,9 @@
 import requests
 
 def main():
-    url = "https://httpbin.org/get"
+    url = "https://httpbin.org/xml"
+    result = requests.get(url)
+    printResults()
 
 def printResults(resData):
     print("Result data: {0}".format(resData.status_code))
