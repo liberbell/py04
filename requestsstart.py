@@ -3,7 +3,7 @@ import requests
 def main():
     url = "https://httpbin.org/xml"
     result = requests.get(url)
-    printResults()
+    printResults(result)
 
 def printResults(resData):
     print("Result data: {0}".format(resData.status_code))
