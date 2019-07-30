@@ -9,7 +9,11 @@ def main():
     "is_author": "True"
     }
 
+    data = urllib.parse.urlencode(args)
+
     result = urllib.request.urlopen(url)
+
+    print("Result code: {0}".format(result.status))
 
 if __name__ == '__main__':
     main()
