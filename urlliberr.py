@@ -3,8 +3,8 @@ from http import HTTPStatus
 from urllib.error import HTTPError
 
 def main():
-    # url = "https://no-such-server.org/html"
-    url = "https://httpbin.org/status/404"
+    url = "https://no-such-server.org/html"
+    # url = "https://httpbin.org/status/404"
     # url = "https://httpbin.org/html"
     try:
         result = urllib.request.urlopen(url)
