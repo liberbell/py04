@@ -18,7 +18,7 @@ def main():
         "postkey1": "post1",
         "postkey2": "post2"
     }
-    result = requests.post(url, params=dataValues)
+    result = requests.post(url, data=dataValues)
     printResults(result)
 
 def printResults(resData):
