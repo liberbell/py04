@@ -9,3 +9,6 @@ def main():
     print("Result code: {0}".format(result.status))
     if (result.getcode() == 200):
         print(result.read().decode("UTF-8"))
+
+if __name__ == '__main__':
+    main()
