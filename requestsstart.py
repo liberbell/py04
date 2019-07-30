@@ -10,7 +10,7 @@ def printResults(resData):
     print('\n')
 
     print('Headers:------------')
-    print('resData.headers')
+    print(resData.headers)
     print('\n')
 
     print('Returned data-------')
