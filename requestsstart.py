@@ -7,10 +7,18 @@ def main():
 
     url = "https://httpbin.org/get"
     dataValues = {
-    "key1": "value1",
-    "key2": "value2"
+        "key1": "value1",
+        "key2": "value2"
     }
     result = requests.get(url, params=dataValues)
+    printResults(result)
+
+    url = "https://httpbin.org/post"
+    dataValues = {
+        "postkey1": "post1",
+        "postkey2": "post2"
+    }
+    result = requests.post(url, params=dataValues)
     printResults(result)
 
 def printResults(resData):
