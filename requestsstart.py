@@ -5,6 +5,14 @@ def main():
     result = requests.get(url)
     printResults(result)
 
+    url = "https://httpbin.org/get"
+    dataValues = {
+    "key1": "value1",
+    "key2": "value2"
+    }
+    result = requests.get(url, params=dataValues)
+    printResults(result)
+
 def printResults(resData):
     print("Result data: {0}".format(resData.status_code))
     print('\n')
