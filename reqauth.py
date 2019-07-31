@@ -4,7 +4,7 @@ from requests.auth import HTTPBasicAuth
 def main():
     url = 'https://httpbin.org/basic-auth/usera/passwd'
     mycred = HTTPBasicAuth('usera', 'passwd')
-    result = requests.get(url, auth=mycred)
+    result = requests.get(url, auth=('usera', 'passwd'))
 
     printResults(result)
 
