@@ -3,6 +3,8 @@ from requests import HTTPBasicAuth
 
 def main():
     url = 'https://httpbin.org/basic-auth/usera/passwd'
+    mycred = HTTPBasicAuth('usera', 'passwd')
+    result = requests.get(url, auth=mycred)
 
     printResults(result)
 
