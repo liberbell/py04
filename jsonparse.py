@@ -14,7 +14,7 @@ def main():
 
     data = json.loads(jsonStr)
     print('Sandwich: ' + data['sandwich'])
-    if (data[toasted]):
+    if (data['toasted']):
         print('And it`s toasted.')
 
     for topping in data['toppings']:
