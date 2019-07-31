@@ -1,7 +1,8 @@
 import requests
+from requests import HTTPBasicAuth
 
 def main():
-    url = 'https://httpbin.org/basic-auth/'
+    url = 'https://httpbin.org/basic-auth/usera/passwd'
 
     printResults(result)
 
