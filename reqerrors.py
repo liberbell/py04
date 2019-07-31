@@ -9,3 +9,10 @@ def main():
 def printResults(resData):
     print('Result data: {0}'.format(resData.status_code))
     print('\n')
+
+    print('Returned data-------------')
+    print(resData)
+
+
+if __name__ == '__main__':
+    main()
