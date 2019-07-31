@@ -21,6 +21,13 @@ def main():
     result = requests.post(url, data=dataValues)
     printResults(result)
 
+    url = "https://httpbin.org/get"
+    headerValues = {
+        "User-Agent" : "takeshi tanaka / App ver 1.0.0"
+    }
+    result = requests.get(url, headers=headerValues)
+    printResults(result)
+
 def printResults(resData):
     print("Result data: {0}".format(resData.status_code))
     print('\n')
