@@ -6,7 +6,7 @@ def main():
         "toasted": true,
         "toppings": [
             "Thousand island Dressing",
-            "Sauerkraut",
+    p        "Sauerkraut",
             "Pickles"
         ],
         "price": 8.99
@@ -15,3 +15,6 @@ def main():
     data = json.loads(jsonStr)
 
     print('Sandwich: ' + data['sandwich'])
+
+if __name__ == '__main__':
+    main()
