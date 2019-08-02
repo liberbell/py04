@@ -13,3 +13,5 @@ def main():
     }'''
 
     data = json.loads(jsonStr)
+
+    print('Sandwich: ' + data['sandwich'])
