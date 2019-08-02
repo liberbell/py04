@@ -6,7 +6,7 @@ def main():
         "toasted": true,
         "toppings": [
             "Thousand island Dressing",
-    p        "Sauerkraut",
+            "Sauerkraut",
             "Pickles"
         ],
         "price": 8.99
