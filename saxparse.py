@@ -12,3 +12,6 @@ def main():
 
     print('There are {0} slide elements.'.format(handler.slideCount))
     print('There are {0} item elements.'.format(handler.itemCount))
+
+if __name__ == '__main__':
+    main()
