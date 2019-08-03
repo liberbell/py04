@@ -9,6 +9,7 @@ class MyContentHandler(xml.sax.ContentHandler):
 def main():
     url = 'https://httpbin.org/xml'
     result = requests.get(url)
+    print(result.text)
 
     print('There are {0} slide elements.'.format(handler.slideCount))
     print('There are {0} item elements.'.format(handler.itemCount))
