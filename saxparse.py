@@ -7,6 +7,8 @@ class MyContentHandler(xml.sax.ContentHandler):
         self.itemCount = 0
 
 def main():
+    handler = MyContentHandler()
+    
     url = 'https://httpbin.org/xml'
     result = requests.get(url)
     print(result.text)
