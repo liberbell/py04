@@ -12,7 +12,7 @@ class MyContentHandler(xml.sax.ContentHandler):
             print('Slideshow title: ' + attrs['title'])
         elif tagName == 'slide':
             self.slideCount += 1
-        elif tagName == 'title':
+        elif tagName == 'item':
             self.itemCount += 1
         elif tagName == 'title':
             self.isInTitle = True
