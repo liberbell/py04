@@ -14,6 +14,5 @@ def main():
     items = domtree.getElementsByTagName('item')
     print('There are {0} item tags.'.format(items.length))
 
-
 if __name__ == '__main__':
     main()
