@@ -22,8 +22,8 @@ class MyContentHandler(xml.sax.ContentHandler):
             self.isInTitle = False
 
     def characters(self, chars):
-        if self.isInTitle:
-            print('Title: ' + chars) 
+        if self.isInTitle
+            print('Title: ' + chars)
 
     def startDocument(self):
         print("About to start")
