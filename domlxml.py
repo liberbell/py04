@@ -26,5 +26,8 @@ def main():
     print('There are {0} slide elements.'.format(slideCount))
     print('There are {0} item elements.'.format(itemCount))
 
+    for elem in doc.findall('slide'):
+        print(elem.tag)
+
 if __name__ == '__main__':
     main()
